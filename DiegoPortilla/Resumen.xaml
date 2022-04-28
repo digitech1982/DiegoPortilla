@@ -5,7 +5,7 @@
     <ContentPage.Content>
         <StackLayout>
             <Frame BackgroundColor="#2196F4">
-                <Label x:Name="lblUsuario" Text="Sistema Calificaciones" HorizontalTextAlignment="Center" TextColor="Green" FontSize="25"/>
+                <Label x:Name="lblUsuario" Text="Sistema Calificaciones" HorizontalTextAlignment="Center" TextColor="Red" FontSize="25"/>
             </Frame>
             <Label Text="Registro" BackgroundColor="GreenYellow" HorizontalTextAlignment="Center"  TextColor="GreenYellow" FontSize="25"/>
 

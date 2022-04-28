@@ -4,22 +4,22 @@
              x:Class="DiegoPortilla.Registro">
     <ContentPage.Content>
         <StackLayout>
-            <Frame BackgroundColor="#254099">
-                <Label x:Name="lblUsuario" Text="" HorizontalTextAlignment="Center" FontSize="25" TextColor="#fff"/>
+            <Frame BackgroundColor="Green">
+                <Label x:Name="lblUsuario" Text="" HorizontalTextAlignment="Center" FontSize="18" TextColor="#fff"/>
             </Frame>
 
-            <Label Text="Resumen" BackgroundColor="#254099" HorizontalTextAlignment="Center" FontSize="25" TextColor="#fff"/>
+            <Label Text="Resumen" BackgroundColor="Green" HorizontalTextAlignment="Center" FontSize="18" TextColor="#fff"/>
             <Grid>
 
 
-                <Label Grid.Row="0" Grid.Column="0" Text="Nombre: " FontSize="25"/>
+                <Label Grid.Row="0" Grid.Column="0" Text="Nombre: " FontSize="18"/>
                 <Entry x:Name="txtNombre" Grid.Row="0" IsReadOnly="True" Grid.Column="1" FontSize="25"/>
 
-                <Label Grid.Row="1" Grid.Column="0" Text="Total a pagar: " FontSize="25"/>
-                <Entry x:Name="txtTotal" Keyboard="Numeric" IsReadOnly="True" Grid.Row="1" Grid.Column="1" FontSize="25"/>
+                <Label Grid.Row="1" Grid.Column="0" Text="Total a pagar: " FontSize="18"/>
+                <Entry x:Name="txtTotal" Keyboard="Numeric" IsReadOnly="True" Grid.Row="1" Grid.Column="1" FontSize="18"/>
 
                 <Label Grid.Row="2" Grid.Column="0" Text="Cuotas mensuales: " FontSize="25"/>
-                <Entry x:Name="txtCuotas" Keyboard="Numeric" IsReadOnly="True" Grid.Row="2" Grid.Column="1" FontSize="25"/>
+                <Entry x:Name="txtCuotas" Keyboard="Numeric" IsReadOnly="True" Grid.Row="2" Grid.Column="1" FontSize="18"/>
 
 
             </Grid>

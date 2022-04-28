@@ -7,9 +7,9 @@
             <Image Source="logoUISRAEL"/>
             
             <Grid>
-                <Label Text="Usuario:" Grid.Row="0" Grid.Column="0" FontSize="20"/>
+                <Label Text="Usuario:" Grid.Row="0" Grid.Column="0" FontSize="18"/>
                 <Entry x:Name="valUser" Placeholder="Usuario" Grid.Row="0" Grid.Column="1"/>
-                <Label Text="Clave:" Grid.Row="1" Grid.Column="0" FontSize="20"/>
+                <Label Text="Clave:" Grid.Row="1" Grid.Column="0" FontSize="18"/>
                 <Entry x:Name="valPasswd" Placeholder="Clave" Grid.Row="1" Grid.Column="1"/>
             </Grid>
 

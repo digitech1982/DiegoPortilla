@@ -20,7 +20,7 @@ namespace DiegoPortilla
         private async void btnlogin_Clicked(object sender, EventArgs e)
         {
             string dato1 = "diego2022";
-            string dato2 = "uisrael2022";
+            string dato2 = "diego2022";
             string nota1 = Convert.ToString(valUser.Text);
             string nota2 = Convert.ToString(valPasswd.Text);
 
