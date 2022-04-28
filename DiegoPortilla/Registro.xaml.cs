@@ -12,9 +12,14 @@ namespace DiegoPortilla
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Registro : ContentPage
     {
-        public Registro()
+        public Registro(string nombre, string usuario, string cuotas)
         {
+            double diferencia = Convert.ToDouble(cuotas) * 5;
             InitializeComponent();
+            lblUsuario.Text = "Bienvenidos sistema de Cursos OnLine:" + usuario;
+            txtNombre.Text = nombre;
+            txtCuotas.Text = cuotas.ToString();
+            txtTotal.Text = diferencia.ToString();
         }
     }
 }

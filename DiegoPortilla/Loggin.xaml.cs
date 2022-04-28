@@ -28,7 +28,7 @@ namespace DiegoPortilla
             {
                 if (nota1 == dato1 && nota2 == dato2)
                 {
-                    await Navigation.PushAsync(new Registro());
+                    await Navigation.PushAsync(new Resumen(dato1,dato2));
 
                 }
                 else

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DiegoPortilla.Resumen">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#2196F4">
+                <Label x:Name="lblUsuario" Text="Sistema Calificaciones" HorizontalTextAlignment="Center" TextColor="Green" FontSize="25"/>
+            </Frame>
+            <Label Text="Registro" BackgroundColor="GreenYellow" HorizontalTextAlignment="Center"  TextColor="GreenYellow" FontSize="25"/>
+
+
+            <Grid>
+
+
+                <Label Grid.Row="0" Grid.Column="0" Text="Ingrese su nombre: " FontSize="25"/>
+                <Entry x:Name="txtNombre" Grid.Row="0" Grid.Column="1" FontSize="25"/>
+
+                <Label Grid.Row="1" Grid.Column="0" Text="Ingrese el monto: " FontSize="25"/>
+                <Entry x:Name="txtMonto" Keyboard="Numeric" Grid.Row="1" Grid.Column="1" FontSize="25"/>
+
+                <Label Grid.Row="2" Grid.Column="0" Text="Cuotas mensuales: " FontSize="25"/>
+                <Entry x:Name="txtMensual" Keyboard="Numeric" IsReadOnly="True" Grid.Row="2" Grid.Column="1" FontSize="25"/>
+
+                <Button Grid.Row="3" x:Name="btnCalcular" Text="Calcular" Clicked="btnCalcular_Clicked" 
+                    BackgroundColor="#254099" TextColor="#fff" FontSize="25" Grid.Column="1"/>
+
+
+            </Grid>
+
+            <Button x:Name="btnGuardar" Clicked="btnGuardar_Clicked" Text="Guardar" 
+                 BackgroundColor="#254099" TextColor="#fff" FontSize="25" Grid.Column="1"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
