@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DiegoPortilla.Loggin">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="logoUISRAEL"/>
+            
+            <Grid>
+                <Label Text="Usuario:" Grid.Row="0" Grid.Column="0" FontSize="20"/>
+                <Entry x:Name="valUser" Placeholder="Usuario" Grid.Row="0" Grid.Column="1"/>
+                <Label Text="Clave:" Grid.Row="1" Grid.Column="0" FontSize="20"/>
+                <Entry x:Name="valPasswd" Placeholder="Clave" Grid.Row="1" Grid.Column="1"/>
+            </Grid>
+
+            <Button x:Name="btnlogin" Text="Inicio de Sesion" Clicked="btnlogin_Clicked"/>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
